@@ -535,11 +535,56 @@ watch(sidebarCollapsed, (collapsed) => {
         aria-label="打开欢迎页"
         @click="openWelcomeFromWordmark"
       >
-        <img
-          :src="withBase('/assets/openaiteach-vibe-logo.png')"
-          alt="OpenAITeach-Vibe"
-          class="vp-home-wordmark-img"
-        />
+        <svg
+          viewBox="0 0 900 180"
+          class="vp-home-wordmark-svg"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient
+              id="home-hero-ocean"
+              x1="0"
+              y1="0"
+              x2="900"
+              y2="0"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop offset="0%" stop-color="#06b6d4">
+                <animate
+                  attributeName="stop-color"
+                  values="#06b6d4;#3b82f6;#06b6d4"
+                  dur="8s"
+                  repeatCount="indefinite"
+                />
+              </stop>
+              <stop offset="50%" stop-color="#0ea5e9">
+                <animate
+                  attributeName="stop-color"
+                  values="#0ea5e9;#06b6d4;#0ea5e9"
+                  dur="8s"
+                  repeatCount="indefinite"
+                />
+              </stop>
+              <stop offset="100%" stop-color="#3b82f6">
+                <animate
+                  attributeName="stop-color"
+                  values="#3b82f6;#0ea5e9;#3b82f6"
+                  dur="8s"
+                  repeatCount="indefinite"
+                />
+              </stop>
+            </linearGradient>
+          </defs>
+          <text
+            x="450"
+            y="120"
+            class="vp-home-wordmark-text"
+            text-anchor="middle"
+            fill="url(#home-hero-ocean)"
+          >
+            openaiteach-vibe
+          </text>
+        </svg>
       </button>
     </template>
     <template #home-hero-info-after>
@@ -658,10 +703,28 @@ watch(sidebarCollapsed, (collapsed) => {
   background: transparent;
   cursor: pointer;
 }
-.vp-home-wordmark-img {
-  width: min(280px, 60vw);
+.vp-home-wordmark-svg {
+  width: min(560px, 72vw);
   height: auto;
-  object-fit: contain;
+  filter: drop-shadow(0 4px 20px rgba(59, 130, 246, 0.2));
+}
+.vp-home-wordmark-text {
+  font-family: 'Pacifico', 'Dancing Script', cursive;
+  font-size: 120px;
+  font-weight: 400;
+  letter-spacing: -2px;
+  animation: ev-hero-wordmark-pulse 8s ease-in-out infinite alternate;
+}
+@keyframes ev-hero-wordmark-pulse {
+  0% {
+    filter: drop-shadow(0 4px 20px rgba(14, 165, 233, 0.25));
+  }
+  50% {
+    filter: drop-shadow(0 4px 28px rgba(6, 182, 212, 0.4));
+  }
+  100% {
+    filter: drop-shadow(0 4px 20px rgba(59, 130, 246, 0.25));
+  }
 }
 
 @media (min-width: 640px) {

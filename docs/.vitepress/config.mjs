@@ -116,6 +116,15 @@ const getSeoHead = (locale, title, description, path = '') => {
       'link',
       { rel: 'stylesheet', href: `${base}style.css`.replace('//', '/') }
     ],
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Pacifico&display=swap'
+      }
+    ],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     [
       'meta',
@@ -300,7 +309,16 @@ const getSeoHead = (locale, title, description, path = '') => {
 
 const commonHead = [
   ['link', { rel: 'icon', href: `${base}logo.png`.replace('//', '/') }],
-  ['link', { rel: 'stylesheet', href: `${base}style.css`.replace('//', '/') }]
+  ['link', { rel: 'stylesheet', href: `${base}style.css`.replace('//', '/') }],
+  ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+  ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+  [
+    'link',
+    {
+      rel: 'stylesheet',
+      href: 'https://fonts.googleapis.com/css2?family=Pacifico&display=swap'
+    }
+  ]
 ]
 
 const commonThemeConfig = {
