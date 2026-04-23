@@ -387,7 +387,7 @@ If you encounter the screen below, it usually means the local service has alread
 ![](/zh-cn/stage-1/building-prototype/images/index-2026-01-14-14-38-11.png)
 
 ::: info 💡 Scenario explanation
-**Scenario**: you used `npm create vite@latest` to initialize a React + TypeScript project (`easy-vibe-web`). After creation, your computer starts a local web service so you can preview immediately.
+**Scenario**: you used `npm create vite@latest` to initialize a React + TypeScript project (`openaiteach-vibe-web`). After creation, your computer starts a local web service so you can preview immediately.
 
 **Local service**: a temporary web service running only on your own machine.
 

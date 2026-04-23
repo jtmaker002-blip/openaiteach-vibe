@@ -17,7 +17,7 @@ const base = isVercel ? '/' : '/easy-vibe/'
 | 平台             | Base 路径     | 示例 URL                                                    |
 | ---------------- | ------------- | ----------------------------------------------------------- |
 | **Vercel**       | `/`           | `https://your-project.vercel.app/cn/stage-1/...`            |
-| **GitHub Pages** | `/easy-vibe/` | `https://datawhalechina.github.io/easy-vibe/cn/stage-1/...` |
+| **GitHub Pages** | `/easy-vibe/` | `https://jtmaker002-blip.github.io/openaiteach-vibe/cn/stage-1/...` |
 | **本地开发**     | `/easy-vibe/` | `http://localhost:5173/easy-vibe/cn/stage-1/...`            |
 | **本地预览**     | `/easy-vibe/` | `http://localhost:4173/easy-vibe/cn/stage-1/...`            |
 
@@ -69,7 +69,7 @@ const base = site.value.base
    npm run build
    ```
 
-3. 访问 `https://datawhalechina.github.io/easy-vibe`
+3. 访问 `https://jtmaker002-blip.github.io/openaiteach-vibe`
 
 ## 验证部署
 

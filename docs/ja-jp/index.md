@@ -2,7 +2,7 @@
 layout: home
 navbar: false
 hero:
-  name: 'Easy-Vibe'
+  name: 'OpenAITeach-Vibe'
   text: 'ゼロからのAIコーディングガイド'
   tagline: 'すべての人のための新しいコーディングパラダイム。PMでもフルスタック開発者でも、ここで自分のAIコーディングの道を見つけることができます。'
   typingTagline:

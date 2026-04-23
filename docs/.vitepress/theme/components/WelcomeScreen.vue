@@ -4,7 +4,7 @@ import { useRouter, withBase } from 'vitepress'
 import easyVibePaths from '../data/easyVibePaths.json'
 
 const router = useRouter()
-const WELCOME_SEEN_KEY = 'easy-vibe-welcome-seen'
+const WELCOME_SEEN_KEY = 'openaiteach-vibe-welcome-seen'
 const phase = ref('reset')
 const theme = ref('ocean')
 const themes = ['ocean', 'rainbow', 'sunset']

@@ -948,7 +948,7 @@ onUnmounted(() => {
                               >"module"</span>
                               <span class="attr-name">src</span>=<span
                                 class="attr-val"
-                              >"/easy-vibe/..."</span><span class="tag-name">/script</span>
+                              >"/openaiteach-vibe/..."</span><span class="tag-name">/script</span>
                             </div>
                           </div>
                           <div class="dom-node">

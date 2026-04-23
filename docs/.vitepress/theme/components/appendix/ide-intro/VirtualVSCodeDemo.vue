@@ -1357,8 +1357,8 @@ onUnmounted(() => {
                       <span class="recent-detail">~/projects/pyeval</span>
                     </div>
                     <div class="recent-item">
-                      <span class="recent-path">easy-vibe/docs</span>
-                      <span class="recent-detail">~/projects/easy-vibe</span>
+                      <span class="recent-path">openaiteach-vibe/docs</span>
+                      <span class="recent-detail">~/projects/openaiteach-vibe</span>
                     </div>
                   </div>
                   <div class="welcome-column">

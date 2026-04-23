@@ -2,7 +2,7 @@
 layout: home
 navbar: false
 hero:
-  name: 'Easy-Vibe'
+  name: 'OpenAITeach-Vibe'
   text: 'KI-Coding-Guide von Grund auf'
   tagline: 'Ein neues Coding-Paradigma für alle. Egal ob PM oder Full Stack Dev, finde hier deinen KI-Coding-Pfad.'
   typingTagline:

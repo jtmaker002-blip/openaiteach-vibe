@@ -26,7 +26,7 @@ const topPromoColorProgress = ref(0)
 let topPromoIntroRaf = 0
 let topPromoColorRaf = 0
 let topPromoColorTimer = 0
-const WELCOME_SEEN_KEY = 'easy-vibe-welcome-seen'
+const WELCOME_SEEN_KEY = 'openaiteach-vibe-welcome-seen'
 
 // Appendix Scroll Logic
 const appendixWrapper = ref(null)
@@ -90,7 +90,7 @@ const autoScroll = () => {
 const i18n = {
   'zh-cn': {
     nav: {
-      title: 'Easy-Vibe 教程',
+      title: 'OpenAITeach-Vibe 教程',
       home: '首页',
       stories: '用户故事',
       pm: '零基础入门',
@@ -286,7 +286,7 @@ const i18n = {
   },
   'en': {
     nav: {
-      title: 'Easy-Vibe Tutorial',
+      title: 'OpenAITeach-Vibe Tutorial',
       home: 'Home',
       stories: 'Vibe Stories',
       pm: 'Product Manager',
@@ -478,13 +478,13 @@ const i18n = {
     },
     footer: {
       title: 'Ready to start?',
-      desc: 'Easy-Vibe, make coding as natural as breathing.',
+      desc: 'OpenAITeach-Vibe, make coding as natural as breathing.',
       btn: 'Start Now'
     }
   },
   'ja-jp': {
     nav: {
-      title: 'Easy-Vibe チュートリアル',
+      title: 'OpenAITeach-Vibe チュートリアル',
       home: 'ホーム',
       stories: 'ユーザーストーリー',
       pm: 'プロダクトマネージャー',
@@ -618,13 +618,13 @@ const i18n = {
     },
     footer: {
       title: '準備はいいですか？',
-      desc: 'Easy-Vibe、呼吸するように自然にコーディング。',
+      desc: 'OpenAITeach-Vibe、呼吸するように自然にコーディング。',
       btn: '今すぐ開始'
     }
   },
   'zh-tw': {
     nav: {
-      title: 'Easy-Vibe 教學',
+      title: 'OpenAITeach-Vibe 教學',
       home: '首頁',
       stories: '使用者故事',
       pm: '產品經理',
@@ -756,13 +756,13 @@ const i18n = {
     },
     footer: {
       title: '準備好開始了嗎？',
-      desc: 'Easy-Vibe，讓編程像呼吸一樣自然。',
+      desc: 'OpenAITeach-Vibe，讓編程像呼吸一樣自然。',
       btn: '立即開啟'
     }
   },
   'ko-kr': {
     nav: {
-      title: 'Easy-Vibe 튜토리얼',
+      title: 'OpenAITeach-Vibe 튜토리얼',
       home: '홈',
       stories: '사용자 이야기',
       pm: '제품 관리자',
@@ -896,13 +896,13 @@ const i18n = {
     },
     footer: {
       title: '시작할 준비 되셨나요?',
-      desc: 'Easy-Vibe, 숨 쉬듯 자연스러운 코딩.',
+      desc: 'OpenAITeach-Vibe, 숨 쉬듯 자연스러운 코딩.',
       btn: '지금 시작하기'
     }
   },
   'es-es': {
     nav: {
-      title: 'Tutorial Easy-Vibe',
+      title: 'Tutorial OpenAITeach-Vibe',
       home: 'Inicio',
       stories: 'Historias de usuarios',
       pm: 'Gerente de Producto',
@@ -1036,13 +1036,13 @@ const i18n = {
     },
     footer: {
       title: '¿Listo para empezar?',
-      desc: 'Easy-Vibe, haz que programar sea tan natural como respirar.',
+      desc: 'OpenAITeach-Vibe, haz que programar sea tan natural como respirar.',
       btn: 'Empezar Ahora'
     }
   },
   'fr-fr': {
     nav: {
-      title: 'Tutoriel Easy-Vibe',
+      title: 'Tutoriel OpenAITeach-Vibe',
       home: 'Accueil',
       stories: 'Histoires d’utilisateurs',
       pm: 'Chef de Produit',
@@ -1177,13 +1177,13 @@ const i18n = {
     },
     footer: {
       title: 'Prêt à commencer ?',
-      desc: 'Easy-Vibe, rendez le codage aussi naturel que la respiration.',
+      desc: 'OpenAITeach-Vibe, rendez le codage aussi naturel que la respiration.',
       btn: 'Commencer'
     }
   },
   'de-de': {
     nav: {
-      title: 'Easy-Vibe Tutorial',
+      title: 'OpenAITeach-Vibe Tutorial',
       home: 'Startseite',
       stories: 'Nutzergeschichten',
       pm: 'Produktmanager',
@@ -1317,13 +1317,13 @@ const i18n = {
     },
     footer: {
       title: 'Bereit zu starten?',
-      desc: 'Easy-Vibe, mache Coden so natürlich wie Atmen.',
+      desc: 'OpenAITeach-Vibe, mache Coden so natürlich wie Atmen.',
       btn: 'Jetzt starten'
     }
   },
   'ar-sa': {
     nav: {
-      title: 'دليل Easy-Vibe',
+      title: 'دليل OpenAITeach-Vibe',
       home: 'الرئيسية',
       stories: 'قصص المستخدمين',
       pm: 'مدير المنتج',
@@ -1458,13 +1458,13 @@ const i18n = {
     },
     footer: {
       title: 'جاهز للبدء؟',
-      desc: 'Easy-Vibe، اجعل البرمجة طبيعية كالتنفس.',
+      desc: 'OpenAITeach-Vibe، اجعل البرمجة طبيعية كالتنفس.',
       btn: 'ابدأ الآن'
     }
   },
   'vi-vn': {
     nav: {
-      title: 'Hướng dẫn Easy-Vibe',
+      title: 'Hướng dẫn OpenAITeach-Vibe',
       home: 'Trang chủ',
       stories: 'Câu chuyện người dùng',
       pm: 'Quản lý sản phẩm',
@@ -1599,7 +1599,7 @@ const i18n = {
     },
     footer: {
       title: 'Sẵn sàng chưa?',
-      desc: 'Easy-Vibe, biến lập trình trở nên tự nhiên như hơi thở.',
+      desc: 'OpenAITeach-Vibe, biến lập trình trở nên tự nhiên như hơi thở.',
       btn: 'Bắt đầu ngay'
     }
   }
@@ -1625,13 +1625,13 @@ const topPromo = computed(() => {
   const code = lang.value ? lang.value.toLowerCase() : 'en'
   if (code === 'zh-cn' || code === 'zh-tw') {
     return {
-      text: '用 Easy-Vibe 构建你的第一个 AI 应用，最快当天可上线原型。',
+      text: '用 OpenAITeach-Vibe 构建你的第一个 AI 应用，最快当天可上线原型。',
       cta: '开始学习 ›',
       link: '/zh-cn/stage-1/learning-map/'
     }
   }
   return {
-    text: 'Build your first AI app with Easy-Vibe and ship a working prototype fast.',
+    text: 'Build your first AI app with OpenAITeach-Vibe and ship a working prototype fast.',
     cta: 'Start learning ›',
     link: '/en/stage-1/learning-map/'
   }
@@ -1646,7 +1646,7 @@ const appleFooterInfo = computed(() => {
         '2. 示例项目与截图用于教学演示，可能与后续版本界面存在差异。',
         '3. 部分章节链接会随着课程迭代调整，建议优先从首页导航进入最新路径。'
       ],
-      breadcrumbPrefix: 'Easy-Vibe',
+      breadcrumbPrefix: 'OpenAITeach-Vibe',
       breadcrumbCurrent: '学习导航',
       columns: [
         {
@@ -1666,14 +1666,14 @@ const appleFooterInfo = computed(() => {
           links: ['学习社群', '讨论区', '课程反馈']
         },
         {
-          title: '关于 Easy-Vibe',
+          title: '关于 OpenAITeach-Vibe',
           links: ['项目介绍', '更新日志', '联系我们']
         }
       ],
       more: '更多学习方式：访问',
       moreLink: 'GitHub 仓库',
       moreTail: '，获取更新与交流信息。',
-      copyright: 'Copyright © 2026 Easy-Vibe. 保留所有权利。',
+      copyright: 'Copyright © 2026 OpenAITeach-Vibe. 保留所有权利。',
       policies: ['隐私政策', '使用条款', '网站地图']
     },
     en: {
@@ -1683,7 +1683,7 @@ const appleFooterInfo = computed(() => {
         '3. Some chapter links may change as the course evolves.',
         '4. The page is optimized for modern desktop browsers and responsive layouts.'
       ],
-      breadcrumbPrefix: 'Easy-Vibe',
+      breadcrumbPrefix: 'OpenAITeach-Vibe',
       breadcrumbCurrent: 'Learning Navigation',
       columns: [
         {
@@ -1703,14 +1703,14 @@ const appleFooterInfo = computed(() => {
           links: ['Community', 'Discussions', 'Feedback']
         },
         {
-          title: 'About Easy-Vibe',
+          title: 'About OpenAITeach-Vibe',
           links: ['Overview', 'Changelog', 'Contact']
         }
       ],
       more: 'More ways to learn: visit',
       moreLink: 'GitHub Repository',
       moreTail: ' for updates and community discussions.',
-      copyright: 'Copyright © 2026 Easy-Vibe. All rights reserved.',
+      copyright: 'Copyright © 2026 OpenAITeach-Vibe. All rights reserved.',
       policies: ['Privacy Policy', 'Terms of Use', 'Sitemap']
     }
   }
@@ -1720,9 +1720,9 @@ const appleFooterInfo = computed(() => {
 const footerRepositoryLink = computed(() => {
   const locale = lang.value ? lang.value.toLowerCase() : 'zh-cn'
   if (locale === 'zh-cn') {
-    return 'https://github.com/datawhalechina/easy-vibe'
+    return 'https://github.com/datawhalechina/openaiteach-vibe'
   }
-  return 'https://github.com/datawhalechina/easy-vibe'
+  return 'https://github.com/datawhalechina/openaiteach-vibe'
 })
 
 const footerPolicyLinkMap = {
@@ -1741,16 +1741,16 @@ const footerColumnLinkMap = {
   '附录': '/zh-cn/appendix/',
   '学习地图': '/zh-cn/stage-1/learning-map/',
   '课程总览': '/zh-cn/stage-1/',
-  'GitHub 仓库': 'https://github.com/datawhalechina/easy-vibe',
+  'GitHub 仓库': 'https://github.com/datawhalechina/openaiteach-vibe',
   'Foundations': '/en/stage-1/',
   'Junior/Mid Dev': '/en/stage-2/',
   'Senior Dev': '/en/stage-3/',
   'Appendix': '/en/appendix/',
   'Learning Map': '/en/stage-1/learning-map/',
   'Course Outline': '/en/stage-1/',
-  'GitHub Repository': 'https://github.com/datawhalechina/easy-vibe',
+  'GitHub Repository': 'https://github.com/datawhalechina/openaiteach-vibe',
   'Overview': '/en/guide/introduction',
-  'Changelog': 'https://github.com/datawhalechina/easy-vibe/releases'
+  'Changelog': 'https://github.com/datawhalechina/openaiteach-vibe/releases'
 }
 
 const getFooterLink = (label) => {
@@ -2242,7 +2242,7 @@ const appendixCards = [
           >
             <img
               class="nav-title-logo no-viewer"
-              :src="withBase('/assets/easy-vibe-logo-hd.svg')"
+              :src="withBase('/assets/openaiteach-vibe-logo-hd.svg')"
               :alt="t.nav.title"
               width="64"
               height="30"

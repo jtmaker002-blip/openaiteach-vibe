@@ -27,7 +27,7 @@ onMounted(async () => {
     }
 
     const res = await fetch(
-      'https://api.github.com/repos/datawhalechina/easy-vibe'
+      'https://api.github.com/repos/jtmaker002-blip/openaiteach-vibe'
     )
     if (res.ok) {
       const data = await res.json()
@@ -52,7 +52,7 @@ onMounted(async () => {
   <div class="github-stars-wrapper">
     <a
       class="github-stars-link"
-      href="https://github.com/datawhalechina/easy-vibe"
+      href="https://github.com/jtmaker002-blip/openaiteach-vibe"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="GitHub"

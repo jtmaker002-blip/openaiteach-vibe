@@ -1,5 +1,5 @@
 ---
-title: 'From Idea to AI Product - Easy-Vibe Learning Roadmap'
+title: 'From Idea to AI Product - OpenAITeach-Vibe Learning Roadmap'
 description: 'Complete roadmap for learning AI programming: from zero basics to full-stack development. Master AI IDE tools like Vibe Coding, Claude Code, and Cursor, and learn product thinking, full-stack development, and AI capability integration.'
 ---
 

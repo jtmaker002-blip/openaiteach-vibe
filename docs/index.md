@@ -6,7 +6,7 @@ layout: home
 import { onMounted } from 'vue'
 import { withBase } from 'vitepress'
 
-const WELCOME_SEEN_KEY = 'easy-vibe-welcome-seen'
+const WELCOME_SEEN_KEY = 'openaiteach-vibe-welcome-seen'
 
 onMounted(() => {
   // 语言映射：浏览器语言代码 -> 网站路径

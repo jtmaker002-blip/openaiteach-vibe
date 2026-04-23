@@ -14,7 +14,7 @@
             <span class="dot green" />
           </div>
           <div class="title-text">
-            App.vue - easy-vibe - Visual Studio Code
+            App.vue - openaiteach-vibe - Visual Studio Code
           </div>
         </div>
 

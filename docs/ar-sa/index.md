@@ -2,7 +2,7 @@
 layout: home
 navbar: false
 hero:
-  name: 'Easy-Vibe'
+  name: 'OpenAITeach-Vibe'
   text: 'دليل برمجة الذكاء الاصطناعي من الصفر'
   tagline: 'نموذج برمجة جديد للجميع. سواء كنت مدير منتج أو مطور Full Stack، ابحث عن مسار برمجة الذكاء الاصطناعي الخاص بك هنا.'
   typingTagline:

@@ -1,6 +1,6 @@
 # Novato y Prototipo de Producto
 
-¡Bienvenido a la etapa de **Gerente de Producto de IA**! Este es el punto de partida del tutorial de Easy-Vibe, diseñado para estudiantes sin experiencia en programación.
+¡Bienvenido a la etapa de **Gerente de Producto de IA**! Este es el punto de partida del tutorial de OpenAITeach-Vibe, diseñado para estudiantes sin experiencia en programación.
 
 ## Lo que aprenderás
 

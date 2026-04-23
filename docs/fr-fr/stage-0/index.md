@@ -1,6 +1,6 @@
 # Débutant et Prototype de Produit
 
-Bienvenue à l'étape **Chef de Produit IA** ! C'est le point de départ du tutoriel Easy-Vibe, conçu pour les apprenants sans expérience en programmation.
+Bienvenue à l'étape **Chef de Produit IA** ! C'est le point de départ du tutoriel OpenAITeach-Vibe, conçu pour les apprenants sans expérience en programmation.
 
 ## Ce que vous allez apprendre
 

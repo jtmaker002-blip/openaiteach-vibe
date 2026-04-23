@@ -1,6 +1,6 @@
 # Anfänger und Produktprototyp
 
-Willkommen in der Phase **KI-Produktmanager**! Dies ist der Ausgangspunkt des Easy-Vibe-Tutorials, entwickelt für Lernende ohne Programmiererfahrung.
+Willkommen in der Phase **KI-Produktmanager**! Dies ist der Ausgangspunkt des OpenAITeach-Vibe-Tutorials, entwickelt für Lernende ohne Programmiererfahrung.
 
 ## Was du lernen wirst
 

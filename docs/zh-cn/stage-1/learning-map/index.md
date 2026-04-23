@@ -1,5 +1,5 @@
 ---
-title: '从创意到 AI 产品 - Easy-Vibe 学习路线图'
+title: '从创意到 AI 产品 - OpenAITeach-Vibe 学习路线图'
 description: '学习 AI 编程完整路线图：从零基础到全栈开发。掌握 Vibe Coding、Claude Code、Cursor 等 AI IDE 工具，学会产品思维、全栈开发和 AI 能力集成。'
 ---
 

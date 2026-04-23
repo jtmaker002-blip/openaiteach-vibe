@@ -2,7 +2,7 @@
 layout: home
 navbar: false
 hero:
-  name: 'Easy-Vibe'
+  name: 'OpenAITeach-Vibe'
   text: 'AI Coding Guide from Scratch'
   tagline: 'A new coding paradigm for everyone. Whether you are a PM or a Full Stack Dev, find your AI coding path here.'
   typingTagline:
@@ -20,7 +20,7 @@ hero:
       link: /en/stage-1/
     - theme: alt
       text: GitHub
-      link: https://github.com/datawhalechina/easy-vibe
+      link: https://github.com/jtmaker002-blip/openaiteach-vibe
 ---
 
 <HomeFeatures />

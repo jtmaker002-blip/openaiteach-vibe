@@ -2,7 +2,7 @@
 layout: home
 navbar: false
 hero:
-  name: 'Easy-Vibe'
+  name: 'OpenAITeach-Vibe'
   text: '从零开始的 AI 编程指南'
   tagline: '适合所有人的编程新范式。无论你是产品经理还是全栈开发者，都能在这里找到属于你的 AI 编程之路。'
   typingTagline:
@@ -20,7 +20,7 @@ hero:
       link: /zh-cn/stage-1/learning-map/
     - theme: alt
       text: GitHub 加速更新
-      link: https://github.com/datawhalechina/easy-vibe
+      link: https://github.com/jtmaker002-blip/openaiteach-vibe
 ---
 
 <HomeFeatures />

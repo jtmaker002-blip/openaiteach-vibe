@@ -2,7 +2,7 @@
 layout: home
 navbar: false
 hero:
-  name: 'Easy-Vibe'
+  name: 'OpenAITeach-Vibe'
   text: 'Guía de Programación con IA desde Cero'
   tagline: 'Un nuevo paradigma de programación para todos. Ya seas un PM o un desarrollador Full Stack, encuentra tu camino de programación con IA aquí.'
   typingTagline:
