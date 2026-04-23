@@ -25,7 +25,7 @@ concurrency:
 jobs:
   # Build job
   build:
-    if: github.repository_owner == 'datawhalechina'
+    if: github.repository_owner == 'jtmaker002-blip'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
