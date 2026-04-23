@@ -6,7 +6,6 @@ import GitHubStars from './components/GitHubStars.vue'
 import { onMounted, onBeforeUnmount, ref, watch, computed } from 'vue'
 import ReadingProgress from './components/ReadingProgress.vue'
 import { Setting } from '@element-plus/icons-vue'
-import easyVibePaths from './data/easyVibePaths.json'
 
 const { frontmatter } = useData()
 const route = useRoute()
@@ -536,31 +535,11 @@ watch(sidebarCollapsed, (collapsed) => {
         aria-label="打开欢迎页"
         @click="openWelcomeFromWordmark"
       >
-        <svg
-          viewBox="0 0 460 220"
-          class="vp-home-wordmark-svg"
-        >
-          <defs>
-            <linearGradient
-              id="home-hero-ocean"
-              x1="0"
-              y1="0"
-              x2="460"
-              y2="0"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop offset="0%" stop-color="#06b6d4" />
-              <stop offset="50%" stop-color="#0ea5e9" />
-              <stop offset="100%" stop-color="#3b82f6" />
-            </linearGradient>
-          </defs>
-          <path
-            v-for="(path, index) in easyVibePaths"
-            :key="index"
-            :d="path"
-            class="vp-home-wordmark-path"
-          />
-        </svg>
+        <img
+          :src="withBase('/assets/openaiteach-vibe-logo.png')"
+          alt="OpenAITeach-Vibe"
+          class="vp-home-wordmark-img"
+        />
       </button>
     </template>
     <template #home-hero-info-after>
@@ -679,14 +658,10 @@ watch(sidebarCollapsed, (collapsed) => {
   background: transparent;
   cursor: pointer;
 }
-.vp-home-wordmark-svg {
-  width: min(380px, 52vw);
+.vp-home-wordmark-img {
+  width: min(280px, 60vw);
   height: auto;
-  filter: none;
-}
-.vp-home-wordmark-path {
-  fill: url(#home-hero-ocean);
-  stroke: none;
+  object-fit: contain;
 }
 
 @media (min-width: 640px) {
