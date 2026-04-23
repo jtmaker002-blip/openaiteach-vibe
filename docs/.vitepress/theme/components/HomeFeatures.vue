@@ -2242,7 +2242,7 @@ const appendixCards = [
           >
             <img
               class="nav-title-logo no-viewer"
-              :src="withBase('/assets/openaiteach-vibe-logo-hd.svg')"
+              :src="withBase('/assets/openaiteach-vibe-logo.png')"
               :alt="t.nav.title"
               width="64"
               height="30"
@@ -2748,15 +2748,14 @@ a {
 
 .nav-title-logo {
   display: block;
-  max-width: 64px !important;
-  max-height: 30px !important;
-  height: 30px !important;
-  width: 64px !important;
-  min-width: 64px;
-  min-height: 30px;
+  max-width: 120px !important;
+  max-height: 40px !important;
+  height: 40px !important;
+  width: auto !important;
+  min-width: unset;
+  min-height: 40px;
   object-fit: contain;
   flex: 0 0 auto;
-  filter: grayscale(1) brightness(0.28) contrast(1.05);
 }
 
 .nav-links {
