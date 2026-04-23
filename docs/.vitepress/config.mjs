@@ -9,8 +9,8 @@ const isEdgeOne = !!process.env.EDGEONE || process.env.EDGEONE === '1'
 // 确定 Base 路径：
 // 1. 如果设置了 BASE 环境变量，优先使用
 // 2. 如果是 Vercel 或 EdgeOne，默认使用根路径 '/'
-// 3. 否则（如 GitHub Pages），使用 '/easy-vibe/'
-const base = process.env.BASE || (isVercel || isEdgeOne ? '/' : '/easy-vibe/')
+// 3. 否则（如 GitHub Pages），使用 '/openaiteach-vibe/'
+const base = process.env.BASE || (isVercel || isEdgeOne ? '/' : '/openaiteach-vibe/')
 
 // 站点 URL 配置 - 根据部署环境动态确定
 const getSiteUrl = () => {
@@ -23,7 +23,7 @@ const getSiteUrl = () => {
   if (process.env.SITE_URL) {
     return process.env.SITE_URL
   }
-  return 'https://datawhalechina.github.io/easy-vibe'
+  return 'https://jtmaker002-blip.github.io/openaiteach-vibe'
 }
 
 const siteUrl = getSiteUrl()
@@ -32,61 +32,61 @@ const siteUrl = getSiteUrl()
 const localeMap = {
   'zh-cn': {
     ogLocale: 'zh_CN',
-    twitterSite: '@datawhale',
+    twitterSite: '@openaiteach_vibe',
     lang: 'zh-CN',
     hreflang: 'zh-CN'
   },
   en: {
     ogLocale: 'en_US',
-    twitterSite: '@datawhale',
+    twitterSite: '@openaiteach_vibe',
     lang: 'en-US',
     hreflang: 'en'
   },
   'ja-jp': {
     ogLocale: 'ja_JP',
-    twitterSite: '@datawhale',
+    twitterSite: '@openaiteach_vibe',
     lang: 'ja-JP',
     hreflang: 'ja'
   },
   'zh-tw': {
     ogLocale: 'zh_TW',
-    twitterSite: '@datawhale',
+    twitterSite: '@openaiteach_vibe',
     lang: 'zh-TW',
     hreflang: 'zh-TW'
   },
   'ko-kr': {
     ogLocale: 'ko_KR',
-    twitterSite: '@datawhale',
+    twitterSite: '@openaiteach_vibe',
     lang: 'ko-KR',
     hreflang: 'ko'
   },
   'es-es': {
     ogLocale: 'es_ES',
-    twitterSite: '@datawhale',
+    twitterSite: '@openaiteach_vibe',
     lang: 'es-ES',
     hreflang: 'es'
   },
   'fr-fr': {
     ogLocale: 'fr_FR',
-    twitterSite: '@datawhale',
+    twitterSite: '@openaiteach_vibe',
     lang: 'fr-FR',
     hreflang: 'fr'
   },
   'de-de': {
     ogLocale: 'de_DE',
-    twitterSite: '@datawhale',
+    twitterSite: '@openaiteach_vibe',
     lang: 'de-DE',
     hreflang: 'de'
   },
   'ar-sa': {
     ogLocale: 'ar_SA',
-    twitterSite: '@datawhale',
+    twitterSite: '@openaiteach_vibe',
     lang: 'ar-SA',
     hreflang: 'ar'
   },
   'vi-vn': {
     ogLocale: 'vi_VN',
-    twitterSite: '@datawhale',
+    twitterSite: '@openaiteach_vibe',
     lang: 'vi-VN',
     hreflang: 'vi'
   }
@@ -148,10 +148,10 @@ const getSeoHead = (locale, title, description, path = '') => {
       {
         name: 'keywords',
         content:
-          'AI编程,Vibe Coding,Claude Code,Cursor,Trae,AI IDE,零基础学编程,AI辅助开发,产品经理,全栈开发,编程教程,编程工具,Datawhale,Supabase,React,大模型,LLM,人工智能,微信小程序,Android开发,iOS开发,MCP,RAG,LangGraph,Dify,跨平台开发,AI应用开发'
+          'AI编程,Vibe Coding,Claude Code,Cursor,Trae,AI IDE,零基础学编程,AI辅助开发,产品经理,全栈开发,编程教程,编程工具,OpenAITeach,Supabase,React,大模型,LLM,人工智能,微信小程序,Android开发,iOS开发,MCP,RAG,LangGraph,Dify,跨平台开发,AI应用开发'
       }
     ],
-    ['meta', { name: 'author', content: 'Datawhale' }],
+    ['meta', { name: 'author', content: 'OpenAITeach' }],
     ['meta', { name: 'robots', content: 'index,follow' }],
     ['meta', { name: 'googlebot', content: 'index,follow' }],
     ['meta', { name: 'baiduspider', content: 'index,follow' }],
@@ -196,13 +196,13 @@ const getSeoHead = (locale, title, description, path = '') => {
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Datawhale',
-      url: 'https://datawhalechina.github.io',
+      name: 'OpenAITeach',
+      url: 'https://jtmaker002-blip.github.io',
       logo: {
         '@type': 'ImageObject',
         url: ogImageUrl
       },
-      sameAs: ['https://github.com/datawhalechina/easy-vibe']
+      sameAs: ['https://github.com/jtmaker002-blip/openaiteach-vibe']
     },
     mainEntity: {
       '@type': 'Course',
@@ -210,8 +210,8 @@ const getSeoHead = (locale, title, description, path = '') => {
       description: description,
       provider: {
         '@type': 'Organization',
-        name: 'Datawhale',
-        sameAs: 'https://github.com/datawhalechina/easy-vibe'
+        name: 'OpenAITeach',
+        sameAs: 'https://github.com/jtmaker002-blip/openaiteach-vibe'
       },
       educationalLevel: 'Beginner to Advanced',
       learningResourceType: 'Course'
@@ -304,16 +304,16 @@ const commonHead = [
 ]
 
 const commonThemeConfig = {
-  logo: '/assets/easy-vibe-logo-hd.svg',
+  logo: '/assets/openaiteach-vibe-logo.png',
   siteTitle: false,
   search: {
     provider: 'local'
   },
   // socialLinks: [
-  //   { icon: 'github', link: 'https://github.com/datawhalechina/easy-vibe' }
+  //   { icon: 'github', link: 'https://github.com/jtmaker002-blip/openaiteach-vibe' }
   // ],
   editLink: {
-    pattern: 'https://github.com/datawhalechina/easy-vibe/edit/main/docs/:path',
+    pattern: 'https://github.com/jtmaker002-blip/openaiteach-vibe/edit/main/docs/:path',
     text: 'Edit this page on GitHub'
   },
   outline: {
@@ -1366,12 +1366,12 @@ Sitemap: ${siteUrl}/sitemap.xml
       label: '简体中文',
       lang: 'zh-CN',
       link: '/zh-cn/',
-      title: 'Easy-Vibe 教程',
+      title: 'OpenAITeach-Vibe 教程',
       description:
         '从零到一学习 Vibe Coding - 零基础学会用 AI 编程，掌握 Claude Code、Cursor 等 AI IDE 工具',
       head: getSeoHead(
         'zh-cn',
-        'Easy-Vibe 教程',
+        'OpenAITeach-Vibe 教程',
         '从零到一学习 Vibe Coding - 零基础学会用 AI 编程，掌握 Claude Code、Cursor 等 AI IDE 工具'
       ),
       themeConfig: {
@@ -2218,12 +2218,12 @@ Sitemap: ${siteUrl}/sitemap.xml
       label: 'English',
       lang: 'en-US',
       link: '/en/',
-      title: 'Easy-Vibe Tutorial',
+      title: 'OpenAITeach-Vibe Tutorial',
       description:
         'Learn Vibe Coding from Zero to Advanced - Master AI programming with Claude Code, Cursor, and other AI IDE tools',
       head: getSeoHead(
         'en',
-        'Easy-Vibe Tutorial',
+        'OpenAITeach-Vibe Tutorial',
         'Learn Vibe Coding from Zero to Advanced - Master AI programming with Claude Code, Cursor, and other AI IDE tools'
       ),
       themeConfig: {
@@ -2305,12 +2305,12 @@ Sitemap: ${siteUrl}/sitemap.xml
       label: '日本語',
       lang: 'ja-JP',
       link: '/ja-jp/',
-      title: 'Easy-Vibe チュートリアル',
+      title: 'OpenAITeach-Vibe チュートリアル',
       description:
         'ゼロから学ぶ Vibe Coding - AIプログラミングを初めから体系的に学習',
       head: getSeoHead(
         'ja-jp',
-        'Easy-Vibe チュートリアル',
+        'OpenAITeach-Vibe チュートリアル',
         'ゼロから学ぶ Vibe Coding - AIプログラミングを初めから体系的に学習'
       ),
       themeConfig: {
@@ -2356,12 +2356,12 @@ Sitemap: ${siteUrl}/sitemap.xml
       label: '繁體中文',
       lang: 'zh-TW',
       link: '/zh-tw/',
-      title: 'Easy-Vibe 教程',
+      title: 'OpenAITeach-Vibe 教程',
       description:
         '從零到一學習 Vibe Coding - 零基礎學會用 AI 編程，掌握 Claude Code、Cursor 等 AI IDE 工具',
       head: getSeoHead(
         'zh-tw',
-        'Easy-Vibe 教程',
+        'OpenAITeach-Vibe 教程',
         '從零到一學習 Vibe Coding - 零基礎學會用 AI 編程，掌握 Claude Code、Cursor 等 AI IDE 工具'
       ),
       themeConfig: {
@@ -2406,12 +2406,12 @@ Sitemap: ${siteUrl}/sitemap.xml
       label: '한국어',
       lang: 'ko-KR',
       link: '/ko-kr/',
-      title: 'Easy-Vibe 튜토리얼',
+      title: 'OpenAITeach-Vibe 튜토리얼',
       description:
         'Vibe Coding을 처음부터 체계적으로 학습합니다 - AI 프로그래밍을 처음부터 고급까지',
       head: getSeoHead(
         'ko-kr',
-        'Easy-Vibe 튜토리얼',
+        'OpenAITeach-Vibe 튜토리얼',
         'Vibe Coding을 처음부터 체계적으로 학습합니다 - AI 프로그래밍을 처음부터 고급까지'
       ),
       themeConfig: {
@@ -2456,12 +2456,12 @@ Sitemap: ${siteUrl}/sitemap.xml
       label: 'Español',
       lang: 'es-ES',
       link: '/es-es/',
-      title: 'Tutorial de Easy-Vibe',
+      title: 'Tutorial de OpenAITeach-Vibe',
       description:
         'Aprende Vibe Coding desde cero hasta avanzado - Domina la programación con IA desde el principio',
       head: getSeoHead(
         'es-es',
-        'Tutorial de Easy-Vibe',
+        'Tutorial de OpenAITeach-Vibe',
         'Aprende Vibe Coding desde cero hasta avanzado - Domina la programación con IA desde el principio'
       ),
       themeConfig: {
@@ -2506,12 +2506,12 @@ Sitemap: ${siteUrl}/sitemap.xml
       label: 'Français',
       lang: 'fr-FR',
       link: '/fr-fr/',
-      title: 'Tutoriel Easy-Vibe',
+      title: 'Tutoriel OpenAITeach-Vibe',
       description:
         'Apprenez Vibe Coding de zéro à avancé - Maîtrisez la programmation IA du début au niveau avancé',
       head: getSeoHead(
         'fr-fr',
-        'Tutoriel Easy-Vibe',
+        'Tutoriel OpenAITeach-Vibe',
         'Apprenez Vibe Coding de zéro à avancé - Maîtrisez la programmation IA du début au niveau avancé'
       ),
       themeConfig: {
@@ -2556,12 +2556,12 @@ Sitemap: ${siteUrl}/sitemap.xml
       label: 'Deutsch',
       lang: 'de-DE',
       link: '/de-de/',
-      title: 'Easy-Vibe Tutorial',
+      title: 'OpenAITeach-Vibe Tutorial',
       description:
         'Lernen Sie Vibe Coding von Null bis Fortgeschritten - Meistern Sie die KI-Programmierung von Grund auf',
       head: getSeoHead(
         'de-de',
-        'Easy-Vibe Tutorial',
+        'OpenAITeach-Vibe Tutorial',
         'Lernen Sie Vibe Coding von Null bis Fortgeschritten - Meistern Sie die KI-Programmierung von Grund auf'
       ),
       themeConfig: {
@@ -2606,12 +2606,12 @@ Sitemap: ${siteUrl}/sitemap.xml
       label: 'العربية',
       lang: 'ar-SA',
       link: '/ar-sa/',
-      title: 'دروس Easy-Vibe',
+      title: 'دروس OpenAITeach-Vibe',
       description:
         'تعلم Vibe Coding من الصفر إلى المتقدم - إتقان البرمجة بالذكاء الاصطناعي من البداية',
       head: getSeoHead(
         'ar-sa',
-        'دروس Easy-Vibe',
+        'دروس OpenAITeach-Vibe',
         'تعلم Vibe Coding من الصفر إلى المتقدم - إتقان البرمجة بالذكاء الاصطناعي من البداية'
       ),
       themeConfig: {
@@ -2656,12 +2656,12 @@ Sitemap: ${siteUrl}/sitemap.xml
       label: 'Tiếng Việt',
       lang: 'vi-VN',
       link: '/vi-vn/',
-      title: 'Hướng dẫn Easy-Vibe',
+      title: 'Hướng dẫn OpenAITeach-Vibe',
       description:
         'Học Vibe Coding từ cơ bản đến nâng cao - Làm chủ lập trình AI từ cơ bản đến chuyên sâu',
       head: getSeoHead(
         'vi-vn',
-        'Hướng dẫn Easy-Vibe',
+        'Hướng dẫn OpenAITeach-Vibe',
         'Học Vibe Coding từ cơ bản đến nâng cao - Làm chủ lập trình AI từ cơ bản đến chuyên sâu'
       ),
       themeConfig: {
